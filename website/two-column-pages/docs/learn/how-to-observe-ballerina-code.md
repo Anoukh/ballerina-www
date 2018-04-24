@@ -81,7 +81,7 @@ Make sure you have already installed Docker Community Edition (CE) to install ex
    $ nohup ballerina run hello_service.bal --config <path-to-conf>/ballerina.conf > ~/wso2-ballerina/workspace/ballerina.log &
    ```
 4. Install Elastic Stack as mentioned in section [setting up elastic stack](#setting-up-elastic-stack)
-5. Install and configure premetheus as mentioned in section [configuring prometheus](#Prometheus)/
+5. Install and configure prometheus as mentioned in section [configuring prometheus](#Prometheus)/
 6. Install grafana as mentioned in section [configuring grafana](#grafana)
 7. Install Jaeger as mentioned in section [configuring jaeger](#jeager)
 8. Send few requests to http://localhost:9090/hello/sayHello
